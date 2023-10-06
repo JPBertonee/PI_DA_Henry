@@ -22,9 +22,9 @@ Los siniestros viales y sus trágicas consecuencias son una preocupación consta
 
 
 ## Objetivo
-+ **Recopilación y Análisis de Datos:** Recolectar y analizar datos relacionados con siniestros viales, incluyendo ubicación, tipo de vehículo, victimas, acusados, tipos de calle y otras variables relevantes.
++ **Recopilación y Análisis de Datos:** Recolectar y analizar datos relacionados con siniestros viales, incluyendo ubicación, tipo de vehículo, víctimas, acusados, tipos de calle y otras variables relevantes.
 
-+ **Elaboración de KPI's:** Desarrollar indicadores claves de rendimiento que nos permitan realizar un seguimiento de los puntos mas relevantes para el analisis y la reduccion de accidentes de tránsito. 
++ **Elaboración de KPI's:** Desarrollar indicadores claves de rendimiento que nos permitan realizar un seguimiento de los puntos más relevantes para el analisis y la reducción de accidentes de tránsito. 
 
 + **Identificación de Patrones y Tendencias:** Identificar patrones y tendencias en los datos que puedan ayudar a comprender mejor las causas y circunstancias de los siniestros viales.
 
@@ -63,7 +63,7 @@ Dejamos a disposición del lector, la siguiente [guía práctica](info/GuiaSinie
 
 ## Datasets
 
-Para la realizacion del proyecto, nos disponibilizan un dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021. El data sets original se encuentra en el siguiente [link](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales).
+Para la realización del proyecto, nos disponibilizan un dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021. El dataset original se encuentra en el siguiente [link](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales).
 
 Este dataset contiene dos hojas llamadas: **`hechos`** y **`víctimas`**. 
 
@@ -73,7 +73,7 @@ Asimismo, se incluye un documento que sirve de guía para un mayor entendimiento
 
 Para el desarrollo del proyecto utilizamos distintas herramientas las que incluyen:
 
-1. **ETL y analisis de datos:**
+1. **ETL y análisis de datos:**
 
     + Python
     + Pandas
@@ -93,22 +93,22 @@ El mismo consiste en los siguientes pasos:
 
 1. **Ingesta de datos**: se importan librerias y se leen los datos a trabajar. 
 
-2. **Inspección preliminar**: se analiza el data set correspondiente con el objetivo de interpretar que informacion tenemos, la calidad de sus datos, entre otras cosas. 
+2. **Inspección preliminar**: se analiza el dataset correspondiente con el objetivo de interpretar que información tenemos, la calidad de sus datos, entre otras cosas. 
 
 3. **Duplicados**: se busca la existencia de registros duplicados y se decide que hacer con ellos. 
 
 4. **Valores faltantes**: al igual que con los duplicados, buscamos valores faltantes y determianamos como vamos a trabajar con ellos. 
 
-5. **Outliers**: se rastrea dentro de los datasets, la posible existencia de outliers con el objetivo de eliminarlos si fuera necesario y que eso no altere la calidad del analisis. 
+5. **Outliers**: se rastrea dentro de los datasets, la posible existencia de outliers con el objetivo de eliminarlos si fuera necesario y que eso no altere la calidad del análisis. 
 
-6. **Gráficos (variables cuantitativas)**: se identifican las variables numericas y se busca correlacion entre ellas para evitar sesgamientos e inconsistencias. Ademas, se analiza la distribución de las mismas mediante la utilizacion de gráficos con el objetivo de identificar tendencias y comportamientos en los datos que puedan ser de utilidad para el análisis posterior y la creación del dashboard. 
+6. **Gráficos (variables cuantitativas)**: se identifican las variables numéricas y se busca correlación entre ellas para evitar sesgamientos e inconsistencias. Además, se analiza la distribución de las mismas mediante la utilización de gráficos con el objetivo de identificar tendencias y comportamientos en los datos que puedan ser de utilidad para el análisis posterior y la creación del dashboard. 
 
 7. **Gráficos (variables cualitativas)**: de las misma manera que con las variables cuantitativas, analizamos las variables categóricas con el mismo objetivo que el anterior. 
 
-8. **Creación CSV**: disponibilizamos un archivo CSV para usar de base en la creacion del dashboard. 
+8. **Creación CSV**: disponibilizamos un archivo CSV para usar de base en la creación del dashboard. 
 
 
-La informacion detallada del paso a paso realizado se encuentra en los siguientes enlaces: [EDA Hechos](EDA_Homicidios.ipynb) y [EDA Victimas](EDA_Victimas.ipynb)
+La información detallada del paso a paso realizado se encuentra en los siguientes enlaces: [EDA Hechos](EDA_Homicidios.ipynb) y [EDA Victimas](EDA_Victimas.ipynb)
 
 ## Observaciones generales de los datos
 
@@ -158,7 +158,7 @@ Se proponen 3 indicadores claves, determinados a partir del analísis y la intep
 
     **Población total**: se decidió utilizar la población del censo 2022. 
 
-    Este KPI nos permite comparar la tasa de homicidios de un semestre específico contra el semestre inmediatamente anterior. Se definió la reducción como un valor positivo. Esto quiere decir que si el KPI nos da un valor mayor que 0, se debe a que el semestre actual disminuyó la cantidad de homidicios en comparación con el anterior. Si esa disminución es mayor que el 10%, entonces se concluye que el objetivo esta cumplido. Podemos observar además, que tan cerca o que tan lejos del objetivo se encuentra la situación del semestre actual vs el anterior.  
+    Este KPI nos permite comparar la tasa de homicidios de un semestre específico contra el semestre inmediatamente anterior. Se definió la reducción como un valor positivo. Esto quiere decir que si el KPI nos da un valor mayor que 0, se debe a que el semestre actual disminuyó la cantidad de homidicios en comparación con el anterior. Si esa disminución es mayor que el 10%, entonces se concluye que el objetivo está cumplido. Podemos observar además, que tan cerca o que tan lejos del objetivo se encuentra la situación del semestre actual vs el anterior.  
 
 2. *Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior*
 
@@ -167,7 +167,7 @@ Se proponen 3 indicadores claves, determinados a partir del analísis y la intep
 
    **Cantidad de accidentes mortales de motociclistas**: obtenido del dataset **hechos**, filtrando las victimas por "MOTO".
 
-    Este KPI nos permite comparar la cantidad de accidentes mortales en motocicleta de un año específico contra el año inmediatamente anterior. Se definió la reducción como un valor positivo. Esto quiere decir que si el KPI nos da un valor mayor que 0, se debe a que el año actual disminuyó la cantidad de accidentes mortales en motocicleta en comparación con el año anterior. Si esa disminución es mayor que el 7%, entonces se concluye que el objetivo esta cumplido. De la misma manera que en el KPI anterior, podemos observar además, que tan cerca o que tan lejos del objetivo se encuentra la situación del año actual vs el anterior.  
+    Este KPI nos permite comparar la cantidad de accidentes mortales en motocicleta de un año específico contra el año inmediatamente anterior. Se definió la reducción como un valor positivo. Esto quiere decir que si el KPI nos da un valor mayor que 0, se debe a que el año actual disminuyó la cantidad de accidentes mortales en motocicleta en comparación con el año anterior. Si esa disminución es mayor que el 7%, entonces se concluye que el objetivo está cumplido. De la misma manera que en el KPI anterior, podemos observar que tan cerca o que tan lejos del objetivo se encuentra la situación del año actual vs el anterior.  
 
 3. *Reducir en un 15% los accidentes mortales en las avenidas en los ultimos 6 meses, en CABA, respecto al semestre anterior*
 
@@ -175,7 +175,7 @@ Se proponen 3 indicadores claves, determinados a partir del analísis y la intep
 
     **Cantidad de accidentes mortales en avenidas**: obtenido del dataset **hechos**, filtrando al tipo de calle por "AVENIDA".
    
-    Este KPI nos permite comparar la cantidad de accidentes mortales en avenidas de un semestre específico contra el semestre inmediatamente anterior. Se definió la reducción como un valor positivo. Esto quiere decir que si el KPI nos da un valor mayor que 0, se debe a que el semestre actual disminuyó la cantidad de accidentes mortales en avenidas en comparación con el semestre anterior. Si esa disminución es mayor que el 15%, entonces se concluye que el objetivo esta cumplido. De la misma manera que en el KPI anterior, podemos observar además, que tan cerca o que tan lejos del objetivo se encuentra la situación del año actual vs el anterior. 
+    Este KPI nos permite comparar la cantidad de accidentes mortales en avenidas de un semestre específico contra el semestre inmediatamente anterior. Se definió la reducción como un valor positivo. Esto quiere decir que si el KPI nos da un valor mayor que 0, se debe a que el semestre actual disminuyó la cantidad de accidentes mortales en avenidas en comparación con el semestre anterior. Si esa disminución es mayor que el 15%, entonces se concluye que el objetivo está cumplido. De la misma manera que en el KPI anterior, podemos observar que tan cerca o que tan lejos del objetivo se encuentra la situación del año actual vs el anterior. 
 
 
 
