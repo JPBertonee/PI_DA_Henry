@@ -142,7 +142,7 @@ Se proponen 3 indicadores claves, determinados a partir del analísis y la intep
     Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000
 
     **Nro de homicidios**: obtenido del dataset **hechos**. 
-    
+
     **Población total**: se decidió utilizar la población del censo 2022. 
 
     Este KPI nos permite comparar la tasa de homicidios de un semestre específico contra el semestre inmediatamente anterior. Se definió la reducción como un valor positivo. Esto quiere decir que si el KPI nos da un valor mayor que 0, se debe a que el semestre actual disminuyó la cantidad de homidicios en comparación con el anterior. Si esa disminución es mayor que el 10%, entonces se concluye que el objetivo esta cumplido. Podemos observar además, que tan cerca o que tan lejos del objetivo se encuentra la situación del semestre actual vs el anterior.  
@@ -187,5 +187,5 @@ A partir de las observaciones y datos presentados en el análisis de siniestros 
 + **Distribución Geográfica:** Las comunas 1, 4, 7, 8 y 9 tienen un mayor volumen de siniestros viales en la Ciudad Autónoma de Buenos Aires. Esto destaca la importancia de la `focalización de esfuerzos y recursos en estas áreas concretas` para abordar el problema de manera efectiva.
 
 
-Estas conclusiones respaldan la necesidad de políticas y acciones concretas orientadas a mejorar la seguridad vial en la Ciudad Autónoma de Buenos Aires, teniendo en cuenta factores como la temporalidad, la ubicación, los roles de los involucrados y las edades de las víctimas. La recopilación y el análisis de datos son herramientas fundamentales
+Estas conclusiones respaldan la necesidad de políticas y acciones concretas orientadas a mejorar la seguridad vial en la Ciudad Autónoma de Buenos Aires, teniendo en cuenta factores como la temporalidad, la ubicación, los roles de los involucrados y las edades de las víctimas. La recopilación y el análisis de datos son herramientas fundamentales para identificar el problema y generar soluciones a la problematica.
 
