@@ -9,7 +9,7 @@ Los siniestros viales y sus trágicas consecuencias son una preocupación consta
 
 
 ## Objetivo
-+ **Recopilación y Análisis de Datos:** Recolectar y analizar datos relacionados con siniestros viales, incluyendo ubicación, , tipo de vehículo, victimas, acusados, tipos de calle y otras variables relevantes.
++ **Recopilación y Análisis de Datos:** Recolectar y analizar datos relacionados con siniestros viales, incluyendo ubicación, tipo de vehículo, victimas, acusados, tipos de calle y otras variables relevantes.
 
 + **Elaboración de KPI's:** Desarrollar indicadores claves de rendimiento que nos permitan realizar un seguimiento de los puntos mas relevantes para el analisis y la reduccion de accidentes de tránsito. 
 
@@ -45,7 +45,6 @@ Causas que contribuyen a los accidentes:
 + Cruzar la calle sin mirar, por lugares inapropiados y sin respetar el semáforo.
 + No realizar el debido mantenimiento de tu vehículo.
 + Factores climáticos: niebla, lluvia, granizo, vientos.
-+ El tránsito es un sistema en el que participamos todos; conductores, pasajeros y peatones. También entre todos lo podemos mejorar. 
 
 Dejamos a disposición del lector, la siguiente [guía práctica](GuiaSiniestros.pdf) la cual tiene como objetivo brindar información básica sobre cómo actuar ante la ocurrencia de un siniestro vial. Dicho documento es suministrado por el gobierno de la Ciudad de Buenos Aires. 
 
@@ -126,8 +125,6 @@ La edad más común de las víctimas se encuentra en el rango de 20 a 40 años, 
 
 Antes de la pandemia, hubo un nivel constante de víctimas en los años anteriores, pero después de la aparición de la pandemia y el bloqueo, disminuyeron los accidentes y las víctimas.
 
-Diciembre es el mes con la mayor cantidad de siniestros y víctimas, probablemente debido al aumento del tráfico durante las festividades de fin de año.
-
 La mayoría de las víctimas fatales son conductores, seguidos por peatones en términos de roles involucrados en los siniestros.
 
 Entre los conductores que resultan víctimas, destacan los motociclistas seguidos por los conductores de automóviles, que suman el 80% de los casos.
@@ -145,6 +142,7 @@ Se proponen 3 indicadores claves, determinados a partir del analísis y la intep
     Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000
 
     **Nro de homicidios**: obtenido del dataset **hechos**. 
+    
     **Población total**: se decidió utilizar la población del censo 2022. 
 
     Este KPI nos permite comparar la tasa de homicidios de un semestre específico contra el semestre inmediatamente anterior. Se definió la reducción como un valor positivo. Esto quiere decir que si el KPI nos da un valor mayor que 0, se debe a que el semestre actual disminuyó la cantidad de homidicios en comparación con el anterior. Si esa disminución es mayor que el 10%, entonces se concluye que el objetivo esta cumplido. Podemos observar además, que tan cerca o que tan lejos del objetivo se encuentra la situación del semestre actual vs el anterior.  
