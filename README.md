@@ -3,6 +3,16 @@
 
 <h1 align=center> SINIESTROS VIALES EN CIUDAD AUTÓNOMA DE BUENOS AIRES
 
+  ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
+  ![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas)
+  ![Numpy](https://img.shields.io/badge/-Numpy-333333?style=flat&logo=numpy)
+  ![Scikitlearn](https://img.shields.io/badge/-Scikitlearn-333333?style=flat&logo=scikitlearn)
+  ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+  ![Jupyter](https://img.shields.io/badge/-Jupyter-333333?style=flat&logo=jupyter)
+  ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
+  ![FastAPI](https://img.shields.io/badge/-FastAPI-333333?style=flat&logo=fastapi)
+  ![Render](https://img.shields.io/badge/-Render-333333?style=flat&logo=render)
+
 ## Introducción
 Los siniestros viales y sus trágicas consecuencias son una preocupación constante para las autoridades locales y la comunidad en general. La necesidad de tomar medidas efectivas para reducir la cantidad de víctimas fatales en las carreteras es imperativa. En este contexto, se propone la elaboración de un proyecto de análisis de datos destinado a proporcionar información valiosa que permita a las autoridades de la ***Ciudad Autónoma de Buenos Aires (CABA)***, tomar medidas específicas y basadas en datos para abordar este problema crítico de seguridad vial.
 
