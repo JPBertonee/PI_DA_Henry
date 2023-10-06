@@ -46,7 +46,7 @@ Causas que contribuyen a los accidentes:
 + No realizar el debido mantenimiento de tu vehículo.
 + Factores climáticos: niebla, lluvia, granizo, vientos.
 
-Dejamos a disposición del lector, la siguiente [guía práctica](GuiaSiniestros.pdf) la cual tiene como objetivo brindar información básica sobre cómo actuar ante la ocurrencia de un siniestro vial. Dicho documento es suministrado por el gobierno de la Ciudad de Buenos Aires. 
+Dejamos a disposición del lector, la siguiente [guía práctica](info/GuiaSiniestros.pdf) la cual tiene como objetivo brindar información básica sobre cómo actuar ante la ocurrencia de un siniestro vial. Dicho documento es suministrado por el gobierno de la Ciudad de Buenos Aires. 
 
 ## Datasets
 
@@ -54,7 +54,7 @@ Para la realizacion del proyecto, nos disponibilizan un dataset sobre homicidios
 
 Este dataset contiene dos hojas llamadas: **`hechos`** y **`víctimas`**. 
 
-Asimismo, se incluye un documento que sirve de guía para un mayor entendimiento de la data analizada. Dicho documento se encuentra en el siguiente [link](NotasHomicidiosViales.pdf).
+Asimismo, se incluye un documento que sirve de guía para un mayor entendimiento de la data analizada. Dicho documento se encuentra en el siguiente [link](info/NotasHomicidiosViales.pdf).
 
 ## Herramientas utilizadas
 
@@ -166,7 +166,7 @@ Se proponen 3 indicadores claves, determinados a partir del analísis y la intep
 
 
 
-![KPI](KPI.png)
+![KPI](info/KPI.png)
 
 ## Conclusiones generales
 
