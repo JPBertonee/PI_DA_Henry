@@ -83,7 +83,7 @@ Para el desarrollo del proyecto utilizamos distintas herramientas las que incluy
 2. **Visualización de datos y Dashboard:**
 
     + PowerBI
-    + NovyPro (en este [link](https://www.novypro.com/project/siniestros-viales---caba-2016-2021-power-bi) se encuentra el tablero desarrollado) **EN DESARROLLO**
+    + NovyPro (en este [link](https://project.novypro.com/eQBl2Q) se encuentra el tablero desarrollado)
 
 ## Análisis exploratorio de datos (EDA)
 
